@@ -1,0 +1,8 @@
+0.0.2
+lisäsin toisen generaattorin ja sain kännipistettä sekunnissa(kps) toimiin 
+
+0.0.3
+vitun css piti laittaa tony ja ville toimii ja näyttää paremmalta
+
+0.0.31
+kaiken näköstä polishia

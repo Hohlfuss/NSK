@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSK clicker/idle/incremental</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    
+</head>
+<body>
+    <div class="vasen">
+        <center>
+        <div class="pistelaatikko unselectable">
+            <span id="känniPisteet">0</span> Kännipisteet<br>
+            <span id="kps">0</span> kännipistettä sekunnissa
+        </div>
+        <br>
+        <div class="klikattava">
+        <img src="kuvat/Kojonperä.jpg" height="256px" width="256px" onclick="lisääKänniä(klikkausVoima)">
+        </div>
+        <button onclick="saveGame();">Tallenna</button>
+        </center>
+
+        <div class="sectionFooer">
+            <h5>NSK Clicker</h5>
+        </div>
+    </div>
+
+    <div class="oikea">
+        <table class="valikko unselectable" onclick="ostaTonninSeteliTony()">
+            <tr>
+                <td id="image"><img src="kuvat/Tonnin seteli tony.jpg"></td>
+                <td id="hintaJaNimi">
+                    <p>TonninSeteliTony</p>
+                    <p><span id="tonninSeteliTonyHinta">15</span> kännipisteet</p>
+                </td>
+                <td id="määrä"><span id="tonninSeteliTony">0</span></td>
+            </tr>
+        </table>
+        <table class="valikko unselectable" onclick="ostaTonninSeteliVille()">
+            <tr>
+                <td id="image"><img src="kuvat/Tonnin setelei Ville.jpg"></td>
+                <td id="hintaJaNimi">
+                    <p>TonninSeteliVille</p>
+                    <p><span id="tonninSeteliVilleHinta">100</span> kännipisteet</p>
+                </td>
+                <td id="määrä"><span id="tonninSeteliVille">0</span></td>
+            </tr>
+        </table>
+        <table class="valikko unselectable" onclick="ostaMankinen()">
+            <tr>
+                <td id="image"><img src="kuvat/Markus.jpg"></td>
+                <td id="hintaJaNimi">
+                    <p>Mankinen</p>
+                    <p><span id="mankinenHinta">1000</span> kännipisteet</p>
+                </td>
+                <td id="määrä"><span id="mankinen">0</span></td>
+            </tr>
+        </table>
+
+
+</body>
+</html>
